@@ -26,7 +26,7 @@ public class TestController {
 	@ResponseBody
 	public String add(){
 		
-		userService.addUser(new User("raf","usernameko","123","emailko","",true));
+		//userService.addUser(new User("raf","usernameko","123","emailko","",true));
 		return "add 1";
 	}
 
